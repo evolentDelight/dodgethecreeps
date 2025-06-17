@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DodgeTheCreeps"
-run/main_scene="uid://c3uukj8ajwwqs"
+run/main_scene="uid://bsbc2kc888s8l"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
