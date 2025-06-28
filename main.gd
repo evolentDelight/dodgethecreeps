@@ -34,11 +34,13 @@ func _on_mob_timer_timeout() -> void:
 	# Set the mob's position to the random location
 	mob.position = mob_spawn_location.position
 	
-	# Set the mob's direction perpendicular to the path direction
+	# Create variable that carries the mob sprite's direction perpendicular to the path direction
 	var direction = mob_spawn_location.rotation + PI / 2
 	
 	# Add some randomness to the direction
 	direction += randf_range(-PI / 4, PI / 4)
+	
+	# Set the mob sprite direction
 	mob.rotation = direction
 	
 	# Choose the velocity for the mob
